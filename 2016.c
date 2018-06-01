@@ -14,14 +14,14 @@ void num_1(){
     int input;
     printf("\nEnter the number : ");
     scanf("%d", &input);
-    int res = 0;
+    int res = 0, bak = input;
     unsigned long loop = 0;
     while(loop < sizeof(int)*8){
         res += input & 1;
         input >>= 1;
         loop++;
     }
-    printf("\nNo of 1's in %d's binary representation is : %d", input, res);
+    printf("\nNo of 1's in %d's binary representation is : %d", bak, res);
 }
 
 #define SQUARE(x) x*x
