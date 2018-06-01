@@ -1,0 +1,1 @@
+A quick brown fox jumps over the lazy dog This is a file full of vowels You just have to have the utter patience to find it If the program eats the vowels correctly, then you should get 10 vowels in the resulting file
